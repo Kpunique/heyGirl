@@ -32,3 +32,14 @@ switch (new Date().getDay()) {
       day = "Saturday";
   }
   document.getElementById("day").innerHTML = "today is " + day;
+
+const attributes = ["Beautiful", "Smart", "Motivated", "Paid"];
+
+let text = "<ul>";
+attributes.forEach(myFunction);
+text += "</ul>";
+document.getElementById("forEach").innerHTML = text;
+
+function myFunction(value) {
+  text += "<li>" + value + "</li>";
+} 

@@ -5,6 +5,9 @@
     <title>HeyGirl</title>
     <link rel="stylesheet" href="/css/heyGirl.css" type="text/css">
     <script defer src ="girl.js"></script>
+    <script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlzkDEVv-Lo04jWf8u6sqBUjRE7fEXIx8&callback=initMap">
+    </script>
 
     <script>
      // Initialize and add the map
@@ -34,6 +37,7 @@
 <p> We did it girl </p>
 <p id="greeting"></p>
 <p id="day"></p>
+<p id="forEach"></p>
 
 <?php echo "ay yo" ?>
 
@@ -44,14 +48,13 @@ $favoriteSong = "";
 
 <form>
    
-</form>
+
 
 <div id=sideNote>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlzkDEVv-Lo04jWf8u6sqBUjRE7fEXIx8&callback=initMap">
-    </script>
+
  
 </div>
+</form>
 
 </body>
 
