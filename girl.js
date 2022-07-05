@@ -1,3 +1,4 @@
+// this is an example of an if else statement 
 const time = new Date().getHours();
 let greeting;
 if (time < 10) {
@@ -8,6 +9,8 @@ if (time < 10) {
   greeting = "Good evening";
 }
 document.getElementById("greeting").innerHTML = greeting;
+
+//this is an example of a switch statement 
 
 switch (new Date().getDay()) {
     case 0:
@@ -32,6 +35,8 @@ switch (new Date().getDay()) {
       day = "Saturday";
   }
   document.getElementById("day").innerHTML = "today is " + day;
+
+  //this is an example of an array with output in a foreach statement 
 
 const attributes = ["Beautiful", "Smart", "Motivated", "Paid"];
 
