@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>HeyGirl</title>
     <link rel="stylesheet" href="/css/heyGirl.css" type="text/css">
+    <script defer src ="girl.js"></script>
+
     <script>
      // Initialize and add the map
     function initMap() {
@@ -30,6 +32,9 @@
 <h1> Hey Girl!! </h1>
 <p>Why is my stylesheet not working</p>
 <p> We did it girl </p>
+<p id="greeting"></p>
+<p id="day"></p>
+
 <?php echo "ay yo" ?>
 
 <?php
