@@ -6,7 +6,7 @@
   <title>HeyGirl</title>
   <link rel="stylesheet" href="/css/heyGirl.css" type="text/css">
   <script defer src="girl.js"></script>
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlzkDEVv-Lo04jWf8u6sqBUjRE7fEXIx8&callback=initMap">
+
   </script>
 
   <script>
