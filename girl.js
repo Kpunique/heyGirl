@@ -38,7 +38,7 @@ switch (new Date().getDay()) {
 
   //this is an example of an array with output in a foreach statement 
 
-const attributes = ["Beautiful", "Smart", "Motivated", "Paid"];
+const attributes = ["Beautiful", "Smart", "Motivated"];
 
 let text = "<ul>";
 attributes.forEach(myFunction);
