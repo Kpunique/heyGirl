@@ -37,7 +37,7 @@
 
   <header>
     <center>
-      <h2> Welcome To The Black Parade<h2>
+      <h2> Welcome To The Black Parade</h2>
     </center>
   </header>
   <h1> Hey Girl!! </h1>
