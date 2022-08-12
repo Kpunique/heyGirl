@@ -6,29 +6,7 @@
   <title>HeyGirl</title>
   <link rel="stylesheet" href="/css/heyGirl.css" type="text/css">
   <script defer src="girl.js"></script>
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlzkDEVv-Lo04jWf8u6sqBUjRE7fEXIx8&callback=initMap">
-  </script>
 
-  <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      const uluru = {
-        lat: -25.344,
-        lng: 131.036
-      };
-      // The map, centered at Uluru
-      const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
-        center: uluru,
-      });
-      // The marker, positioned at Uluru
-      const marker = new google.maps.Marker({
-        position: uluru,
-        map: map,
-      });
-    }
-  </script>
 
 </head>
 
@@ -59,8 +37,17 @@
 
 
     <div id=sideNote>
+      <h1> To Do List</h1>
+      <ul>
+        <li>Practice Code</li>
+        <li>Apply for Jobs</li>
+        <li>Save Money</li>
+      </ul>
 
-      <img src=>
+      <input type="text" id="new task">
+      <button>Add New</button>
+
+
     </div>
   </form>
 
