@@ -83,8 +83,8 @@ for ($x = 0; $x <= count($a) - 1; $x++) {
 echo "and" . $last;  */
 
 //WHEN YOU FAIL YOU TRY TRY AGAIN
-
-$newArray = array("Bitches","Money","Weed","fun");
+ echo "the tech interview question that started it all";
+$newArray = array("Bitches","Money","Code","Fun");
 
 $count = count($newArray);
 
